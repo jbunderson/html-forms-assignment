@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body style="background-color:skyblue">
+    <h2 style="color:darkblue">Login</h2>
+    <form style="background-color:dimgray;color:white;padding:20px;">
+        <input type="text" id="Username" placeholder="Username" required>
+        <input type="text" id="password" placeholder="Password" required>
+
+        <button>Submit</button>
+    </form>
+
+    <h2 style="color:darkblue">Create Account</h2>
+    <form>
+        <div style="background-color:dimgray;color:white;padding:20px;">
+            <input type="text" id="firstname" placeholder="First" required>
+            <input type="text" id="lastname" placeholder="Last" required>
+            <input type="text" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="555-555-5555" required
+                   <pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <input id="date" type="date">
+            <input id="userPassword" type="password" placeholder="Password" minlength="8" required>
+            <!--<function checkForm(form)></function>-->
+            <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+
+            <button>Submit</button>
+
+
+        </div>
+    </form>
+    <form style="background-color:dimgray;color:white;padding:20px;">
+        <h4 style="color:darkblue">Forgot password?</h4>
+        <input type="email" id="email" placeholder="username (email)" required>
+        <button>Fetch Password</button>
+    </form>
+
+
+</body>
+</html>
+
+
+
